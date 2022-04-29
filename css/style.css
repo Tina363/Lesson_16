@@ -56,6 +56,7 @@ body {
   transition: box-shadow 0.3s ease;
   font-size: 16px;
   outline: transparent;
+
 }
 
 .style-input:focus {
@@ -116,6 +117,7 @@ body {
   flex: 0 1 100%;
   height: 180px;
   resize: none;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .form-first__button {
@@ -236,6 +238,7 @@ body {
 .form-second__textarea {
   height: 236px;
   resize: none;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 .form-second__btn {
@@ -256,14 +259,139 @@ body {
 
 
 
-.forms__third-form {}
+.forms__third-form {
+  margin: 0 auto;
+}
 
-.forms__forth-form {}
+.style-input3 {
+  height: 50px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #A2A6B0;
+  border-radius: 4px;
+  padding: 17px;
+  outline: 2px solid transparent;
+  font-size: 14px;
+  transition: outline 0.3s ease;
+}
 
+.style-input3::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #a2a6b0;
+}
 
+.style-input3:hover {
+  outline: 2px solid grey;
 
-.form-third {}
+}
+
+.style-input3:focus {
+  outline: 2px solid grey;
+}
+
+.form-third {
+  background: #f5f7ff;
+  color: #000000;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 18px 30px 30px;
+  max-width: 446px;
+  border-radius: 10px;
+}
+
+.form-third__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.form-third__text {
+  color: #666666;
+  margin-bottom: 12px;
+  max-width: 287px;
+}
+
+.form-third__box {
+  margin-bottom: 17px;
+}
+
+.form-third__item {
+  margin-bottom: 5px;
+}
+
+.form-third__item_end {
+  margin-bottom: 20px;
+}
+
+.form-third__label {
+  display: block;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 2.1;
+}
+
+.form-third__label-right {
+  display: inline-block;
+  max-width: 345px;
+  vertical-align: top;
+}
+
+.form-third__select {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.form-third__option {}
+
+.form-third__second-box {
+  margin-bottom: 20px;
+}
+
+.style-check {
+  margin-right: 10px;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  transition: box-shadow 0.3s ease;
+}
+
+.style-check:checked {
+  box-shadow: 1px 1px 10px blue;
+}
+
+.style-check:hover {
+  box-shadow: 2px 2px 10px blue;
+}
+
+.form-third__input {}
+
+.form-third__btn {
+  color: #0156ff;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #0156FF;
+  border-radius: 50px;
+  width: 100%;
+  background: #F5F7FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: block;
+  cursor: pointer;
+  min-height: 50px;
+  transition: box-shadow 0.3s ease;
+}
+
+.form-third__btn:hover {
+  box-shadow: 1px 1px 10px #0156FF;
+}
+
 
 .form-forth {}
+
+.forms__forth-form {}
 
 .footer {}
